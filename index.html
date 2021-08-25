@@ -1,563 +1,712 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favico/favicon-16x16.png">
-    <link rel="manifest" href="./img/favico/site.webmanifest">
-    <link rel="mask-icon" href="./img/favico/safari-pinned-tab.svg" color="#2d2350">
-    <link rel="shortcut icon" href="./img/favico/favicon.ico">
-    <meta name="msapplication-TileColor" content="#2d2350">
-    <meta name="msapplication-config" content="./img/favico/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favico/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./img/favico/safari-pinned-tab.svg"
+      color="#2d2350"
+    />
+    <link rel="shortcut icon" href="./img/favico/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#2d2350" />
+    <meta
+      name="msapplication-config"
+      content="./img/favico/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header lock">
-        <div class="header__container _container">
-            <div class="header__logo">
-                <a href="/" class="header__logo-link">
-                    <picture>
-                        <source type="image/webp" srcset="./img/logo.webp">
-                        <source type="image/jpeg" srcset="./img/logo.png">
-                        <img src="./img/logo.png" alt="logo">
-                    </picture>
-                </a>
-            </div>
-            <div class="header__menu menu">
-                <div class="menu__burger">
-                    <span></span>
-                </div>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__item"><a href="#homeid" class="js-scroll">home</a></li>
-                        <li class="header__item"><a href="#aboutid" class="js-scroll">about</a></li>
-                        <li class="header__item"><a href="#expertiseid" class="js-scroll">expertise</a></li>
-                        <li class="header__item"><a href="#teamsid" class="js-scroll">teams</a></li>
-                        <li class="header__item"><a href="#worksid" class="js-scroll">works</a></li>
-                        <li class="header__item"><a href="#people-sayid" class="js-scroll">people say</a></li>
-                        <li class="header__item"><a href="#contactsid" class="js-scroll">contacts</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="header__container _container">
+        <div class="header__logo">
+          <a href="/" class="header__logo-link">
+            <picture>
+              <source type="image/webp" srcset="./img/logo.webp" />
+              <source type="image/jpeg" srcset="./img/logo.png" />
+              <img src="./img/logo.png" alt="logo" />
+            </picture>
+          </a>
         </div>
+        <div class="header__menu menu">
+          <div class="menu__burger">
+            <span></span>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#homeid" class="js-scroll">home</a>
+              </li>
+              <li class="header__item">
+                <a href="#aboutid" class="js-scroll">about</a>
+              </li>
+              <li class="header__item">
+                <a href="#expertiseid" class="js-scroll">expertise</a>
+              </li>
+              <li class="header__item">
+                <a href="#teamsid" class="js-scroll">teams</a>
+              </li>
+              <li class="header__item">
+                <a href="#worksid" class="js-scroll">works</a>
+              </li>
+              <li class="header__item">
+                <a href="#people-sayid" class="js-scroll">people say</a>
+              </li>
+              <li class="header__item">
+                <a href="#contactsid" class="js-scroll">contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
-        <div id="homeid" class="intro">
-            <div class="intro__container _container swiper-container">
-                <div class="intro__slider swiper-wrapper">
-                    <div class="intro__slider__item swiper-slide">
-                        <h1 class="intro__header">We Are Awesome Creative Agency</h1>
-                        <p class="intro__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor
-                            aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                            sagittis
-                            sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                            accumsan
-                            ipsum velit.</p>
-                        <a href="" class="intro__btn btn-main">learn more</a>
-                    </div>
-                    <div class="intro__slider__item swiper-slide">
-                        <h1 class="intro__header">We Are Awesome Creative Agency</h1>
-                        <p class="intro__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-                            explicabo necessitatibus at doloremque maiores quasi! Qui voluptatem, quis sunt accusantium,
-                            tenetur cum magni earum eveniet alias repellat assumenda optio perferendis repudiandae
-                            aperiam corporis.</p>
-                        <a href="" class="intro__btn btn-main">learn more</a>
-                    </div>
-                    <div class="intro__slider__item swiper-slide">
-                        <h1 class="intro__header">We Are Awesome Creative Agency</h1>
-                        <p class="intro__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-                            nec
-                            sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                            Morbi
-                            accumsan ipsum velit.</p>
-                        <a href="" class="intro__btn btn-main">learn more</a>
-                    </div>
-                    <div class="intro__slider__item swiper-slide">
-                        <h1 class="intro__header">We Are Awesome Creative Agency</h1>
-                        <p class="intro__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-                            beatae suscipit aspernatur consequuntur delectus! Voluptates optio pariatur tempora culpa
-                            repudiandae sapiente consectetur molestias eos aperiam sequi? Ad laboriosam deserunt, minus
-                            reiciendis repellendus beatae, ducimus atque maxime dolorum quis unde suscipit amet a ut
-                            nobis perspiciatis veniam, est vero assumenda cum temporibus ullam!</p>
-                        <a href="" class="intro__btn btn-main">learn more</a>
-                    </div>
-                </div>
-                <div class="intro__pagination swiper-pagination"></div>
+      <div id="homeid" class="intro">
+        <div class="intro__container _container swiper-container">
+          <div class="intro__slider swiper-wrapper">
+            <div class="intro__slider__item swiper-slide">
+              <h1 class="intro__header">We Are Awesome Creative Agency</h1>
+              <p class="intro__text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                amet mauris. Morbi accumsan ipsum velit.
+              </p>
+              <a href="" class="intro__btn btn-main">learn more</a>
             </div>
+            <div class="intro__slider__item swiper-slide">
+              <h1 class="intro__header">We Are Awesome Creative Agency</h1>
+              <p class="intro__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt explicabo necessitatibus at doloremque maiores quasi!
+                Qui voluptatem, quis sunt accusantium, tenetur cum magni earum
+                eveniet alias repellat assumenda optio perferendis repudiandae
+                aperiam corporis.
+              </p>
+              <a href="" class="intro__btn btn-main">learn more</a>
+            </div>
+            <div class="intro__slider__item swiper-slide">
+              <h1 class="intro__header">We Are Awesome Creative Agency</h1>
+              <p class="intro__text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+                amet mauris. Morbi accumsan ipsum velit.
+              </p>
+              <a href="" class="intro__btn btn-main">learn more</a>
+            </div>
+            <div class="intro__slider__item swiper-slide">
+              <h1 class="intro__header">We Are Awesome Creative Agency</h1>
+              <p class="intro__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Accusamus beatae suscipit aspernatur consequuntur delectus!
+                Voluptates optio pariatur tempora culpa repudiandae sapiente
+                consectetur molestias eos aperiam sequi? Ad laboriosam deserunt,
+                minus reiciendis repellendus beatae, ducimus atque maxime
+                dolorum quis unde suscipit amet a ut nobis perspiciatis veniam,
+                est vero assumenda cum temporibus ullam!
+              </p>
+              <a href="" class="intro__btn btn-main">learn more</a>
+            </div>
+          </div>
+          <div class="intro__pagination swiper-pagination"></div>
         </div>
+      </div>
 
-        <section id="aboutid" class="about">
-            <div class="about__container _container">
-                <div class="about__inner">
-                    <div class="about__image">
-                        <img src="./img/about-logo.png" alt="about-logo">
-                    </div>
-                    <div class="about__content">
-                        <h2 class="about__header">our story</h2>
-                        <p class="about__text _anim-items">This is Photoshop's version of Lorem Ipsum. Proin gravida
-                            nibh vel velit
-                            auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-                            nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
-                        <p class="about__text _anim-items">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                            auctor a
-                            ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti
-                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                        <a href="#!" class="about__btn btn-main">learn more</a>
-                    </div>
-                </div>
+      <section id="aboutid" class="about">
+        <div class="about__container _container">
+          <div class="about__inner">
+            <div class="about__image">
+              <img src="./img/about-logo.png" alt="about-logo" />
             </div>
-        </section>
+            <div class="about__content">
+              <h2 class="about__header">our story</h2>
+              <p class="about__text _anim-items">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+              </p>
+              <p class="about__text _anim-items">
+                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+                auctor a ornare odio. Sed non mauris vitae erat consequat auctor
+                eu in elit. Class aptent taciti sociosqu ad litora torquent per
+                conubia nostra, per inceptos himenaeos.
+              </p>
+              <a href="#!" class="about__btn btn-main">learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="videoid" class="video">
-            <div class="vedeo__container _container">
-                <div class="video__inner">
-                    <a href="#popup" class="video__link popup-link">
-                        <img class="video__play" src="./img/play-icon.png" alt="play-icon">
-                    </a>
-                    <h3 class="video__text">watch our story</h3>
-                </div>
-            </div>
-        </section>
+      <section id="videoid" class="video">
+        <div class="vedeo__container _container">
+          <div class="video__inner">
+            <a href="#popup" class="video__link popup-link">
+              <img
+                class="video__play"
+                src="./img/play-icon.png"
+                alt="play-icon"
+              />
+            </a>
+            <h3 class="video__text">watch our story</h3>
+          </div>
+        </div>
+      </section>
 
-        <section id="expertiseid">
-            <div class="expertise__container _container">
-                <div class="expertise__top">
-                    <h3 class="expertise__header">expertise</h3>
-                    <p class="expertise__text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                </div>
-                <div class="expertise__items">
-                    <div class="expertise__item">
-                        <div class="expertise__icon">
-                            <img src="./img/expertise-ico1.png" alt="">
-                        </div>
-                        <h4 class="expertise__name">web design & development</h4>
-                        <p class="expertise__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                            velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise__item">
-                        <div class="expertise__icon">
-                            <img src="./img/expertise-ico2.png" alt="">
-                        </div>
-                        <h4 class="expertise__name">branding dantity</h4>
-                        <p class="expertise__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                            velit auctor aliquet Aenean.This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                            vel
-                            velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise__item">
-                        <div class="expertise__icon">
-                            <img src="./img/expertise-ico3.png" alt="">
-                        </div>
-                        <h4 class="expertise__name">mobile app</h4>
-                        <p class="expertise__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                            velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise__item">
-                        <div class="expertise__icon">
-                            <img src="./img/expertise-ico4.png" alt="">
-                        </div>
-                        <h4 class="expertise__name">search engine optimization</h4>
-                        <p class="expertise__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                            velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise__item">
-                        <div class="expertise__icon">
-                            <img src="./img/expertise-ico5.png" alt="">
-                        </div>
-                        <h4 class="expertise__name">game development</h4>
-                        <p class="expertise__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                            velit auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="expertise__item">
-                        <div class="expertise__icon">
-                            <img src="./img/expertise-ico6.png" alt="">
-                        </div>
-                        <h4 class="expertise__name">made with love</h4>
-                        <p class="expertise__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                            velit auctor aliquet Aenean.</p>
-                    </div>
-                </div>
+      <section id="expertiseid">
+        <div class="expertise__container _container">
+          <div class="expertise__top">
+            <h3 class="expertise__header">expertise</h3>
+            <p class="expertise__text">
+              Lorem ipsum dolor sit amet proin gravida nibh vel velit
+            </p>
+          </div>
+          <div class="expertise__items">
+            <div class="expertise__item">
+              <div class="expertise__icon">
+                <img src="./img/expertise-ico1.png" alt="" />
+              </div>
+              <h4 class="expertise__name">web design & development</h4>
+              <p class="expertise__desc">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </div>
-        </section>
+            <div class="expertise__item">
+              <div class="expertise__icon">
+                <img src="./img/expertise-ico2.png" alt="" />
+              </div>
+              <h4 class="expertise__name">branding dantity</h4>
+              <p class="expertise__desc">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.This is Photoshop's version of
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="expertise__item">
+              <div class="expertise__icon">
+                <img src="./img/expertise-ico3.png" alt="" />
+              </div>
+              <h4 class="expertise__name">mobile app</h4>
+              <p class="expertise__desc">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="expertise__item">
+              <div class="expertise__icon">
+                <img src="./img/expertise-ico4.png" alt="" />
+              </div>
+              <h4 class="expertise__name">search engine optimization</h4>
+              <p class="expertise__desc">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="expertise__item">
+              <div class="expertise__icon">
+                <img src="./img/expertise-ico5.png" alt="" />
+              </div>
+              <h4 class="expertise__name">game development</h4>
+              <p class="expertise__desc">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="expertise__item">
+              <div class="expertise__icon">
+                <img src="./img/expertise-ico6.png" alt="" />
+              </div>
+              <h4 class="expertise__name">made with love</h4>
+              <p class="expertise__desc">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="teamsid" class="our-team">
-            <div class="our-team__container _container">
-                <div class="our-team__top">
-                    <h3 class="our-team__header">meet our amazing team</h3>
-                    <p class="our-team__text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                </div>
-                <div class="our-team__cards">
-                    <div class="our-team__item">
-                        <div class="our-team__photo">
-                            <img src="./img/ph1.jpg" alt="">
-                        </div>
-                        <div class="our-team__item-wrapper">
-                            <h4 class="our-team__name">SEMF UCUK</h4>
-                            <p class="our-team__job">CEO & FOUNDER</p>
-                        </div>
+      <section id="teamsid" class="our-team">
+        <div class="our-team__container _container">
+          <div class="our-team__top">
+            <h3 class="our-team__header">meet our amazing team</h3>
+            <p class="our-team__text">
+              Lorem ipsum dolor sit amet proin gravida nibh vel velit
+            </p>
+          </div>
+          <div class="our-team__cards">
+            <div class="our-team__item">
+              <div class="our-team__photo">
+                <img src="./img/ph1.jpg" alt="" />
+              </div>
+              <div class="our-team__item-wrapper">
+                <h4 class="our-team__name">SEMF UCUK</h4>
+                <p class="our-team__job">CEO & FOUNDER</p>
+              </div>
+            </div>
+            <div class="our-team__item">
+              <div class="our-team__photo">
+                <img src="./img/ph2.jpg" alt="" />
+              </div>
+              <div class="our-team__item-wrapper">
+                <h4 class="our-team__name">DIK ADALIN</h4>
+                <p class="our-team__job">ENGINEERING</p>
+              </div>
+            </div>
+            <div class="our-team__item">
+              <div class="our-team__photo">
+                <img src="./img/ph3.jpg" alt="" />
+              </div>
+              <div class="our-team__item-wrapper">
+                <h4 class="our-team__name">JENG KOL</h4>
+                <p class="our-team__job">DESIGNER</p>
+              </div>
+            </div>
+            <div class="our-team__item">
+              <div class="our-team__photo">
+                <img src="./img/ph4.jpg" alt="" />
+              </div>
+              <div class="our-team__item-wrapper">
+                <h4 class="our-team__name">PET ROMAK</h4>
+                <p class="our-team__job">MARKETING</p>
+              </div>
+            </div>
+          </div>
+          <div class="our-team__bottom">
+            <p class="our-team__advertise">
+              Become part of our dream team, let’s join us !
+            </p>
+            <a href="#!" class="our-team__btn btn-main"> we are hiring</a>
+          </div>
+        </div>
+      </section>
 
-                    </div>
-                    <div class="our-team__item">
-                        <div class="our-team__photo">
-                            <img src="./img/ph2.jpg" alt="">
-                        </div>
-                        <div class="our-team__item-wrapper">
-                            <h4 class="our-team__name">DIK ADALIN</h4>
-                            <p class="our-team__job">ENGINEERING</p>
-                        </div>
-                    </div>
-                    <div class="our-team__item">
-                        <div class="our-team__photo">
-                            <img src="./img/ph3.jpg" alt="">
-                        </div>
-                        <div class="our-team__item-wrapper">
-                            <h4 class="our-team__name">JENG KOL</h4>
-                            <p class="our-team__job">DESIGNER</p>
-                        </div>
-                    </div>
-                    <div class="our-team__item">
-                        <div class="our-team__photo">
-                            <img src="./img/ph4.jpg" alt="">
-                        </div>
-                        <div class="our-team__item-wrapper">
-                            <h4 class="our-team__name">PET ROMAK</h4>
-                            <p class="our-team__job">MARKETING</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="our-team__bottom">
-                    <p class="our-team__advertise">Become part of our dream team, let’s join us !</p>
-                    <a href="#!" class="our-team__btn btn-main"> we are hiring</a>
-                </div>
-            </div>
-        </section>
+      <section id="worksid" class="our-works">
+        <div class="our-works__top-container _container">
+          <h2 class="our-works__header">our works</h2>
+          <a href="" class="our-works__link">See All Project in dribbble</a>
+        </div>
+        <div class="our-works__items">
+          <div class="our-works__image">
+            <img src="./img/1_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/2_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/3_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/4_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/5_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/1_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/2_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/3_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/4_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/5_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/2_b.jpg" alt="" />
+          </div>
+          <div class="our-works__image">
+            <img src="./img/3_b.jpg" alt="" />
+          </div>
+        </div>
+        <div class="our-works__bottom-container _container">
+          <a href="" class="our-works__btn btn-main">load more</a>
+        </div>
+      </section>
 
-        <section id="worksid" class="our-works">
-            <div class="our-works__top-container _container">
-                <h2 class="our-works__header">our works</h2>
-                <a href="" class="our-works__link">See All Project in dribbble</a>
+      <section id="people-sayid" class="comments">
+        <div class="comments__container _container">
+          <div class="comments__slider">
+            <div class="comments__slider-wrapper swiper-wrapper">
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic1.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic2.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic3.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic4.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic5.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic1.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
+              <div class="comments__slider-item swiper-slide">
+                <h3 class="comments__header">“</h3>
+                <p class="comments__text">
+                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  consequat auctor eu in elit.
+                </p>
+                <h4 class="comments__name">JANE GALADRIEL</h4>
+                <p class="comments__job">CEO TENGKUREP</p>
+                <div class="comments__photos-wrapper">
+                  <img
+                    src="./img/slider-pic2.png"
+                    alt=""
+                    class="comments__photos"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="our-works__items">
-                <div class="our-works__image">
-                    <img src="./img/1_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/2_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/3_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/4_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/5_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/1_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/2_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/3_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/4_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/5_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/2_b.jpg" alt="">
-                </div>
-                <div class="our-works__image">
-                    <img src="./img/3_b.jpg" alt="">
-                </div>
-            </div>
-            <div class="our-works__bottom-container _container">
-                <a href="" class="our-works__btn btn-main">load more</a>
-            </div>
-        </section>
+          </div>
+          <div class="comments__bullets">
+            <div class="comments__pagination swiper-pagination"></div>
+            <div class="comments__button-prev swiper-button-prev"></div>
+            <div class="comments__button-next swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
 
-        <section id="people-sayid" class="comments">
-            <div class="comments__container _container">
-                <div class="comments__slider swiper-container">
-                    <div class="comments__slider-wrapper swiper-wrapper">
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic1.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic2.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic3.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic4.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic5.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic1.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                        <div class="comments__slider-item swiper-slide">
-                            <h3 class="comments__header">“</h3>
-                            <p class="comments__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
-                                consequat
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                                odio. Sed non mauris vitae erat consequat auctor eu in elit.</p>
-                            <h4 class="comments__name">JANE GALADRIEL</h4>
-                            <p class="comments__job">CEO TENGKUREP</p>
-                            <div class="comments__photos-wrapper">
-                                <img src="./img/slider-pic2.png" alt="" class="comments__photos">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comments__pagination swiper-pagination"></div>
-                    <div class="comments__button-prev swiper-button-prev"></div>
-                    <div class="comments__button-next swiper-button-next"></div>
-                </div>
+      <section class="form">
+        <div class="form__container _container">
+          <form class="form__left-box">
+            <h2 class="form__header">GIVE US A GOOD NEWS</h2>
+            <input placeholder="Name" type="text" />
+            <input placeholder="Email" type="text" />
+            <input placeholder="Subject" type="text" />
+            <textarea placeholder="Your massage"></textarea>
+            <button class="form__btn btn-main">submit</button>
+          </form>
+          <div class="form__right-box">
+            <h2 class="form__clients-title">OUR HAPPY CLIENT</h2>
+            <div class="form__clints-wrapper">
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img1.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img1.png" />
+                  <img src="./img/clients-img1.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img2.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img2.png" />
+                  <img src="./img/clients-img2.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img3.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img3.png" />
+                  <img src="./img/clients-img3.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img4.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img4.png" />
+                  <img src="./img/clients-img4.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img5.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img5.png" />
+                  <img src="./img/clients-img5.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img1.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img6.png" />
+                  <img src="./img/clients-img6.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img7.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img7.png" />
+                  <img src="./img/clients-img7.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img8.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img8.png" />
+                  <img src="./img/clients-img8.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img9.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img9.png" />
+                  <img src="./img/clients-img9.png" alt="logo" />
+                </picture>
+              </div>
+              <div class="form__clients-image">
+                <picture>
+                  <source type="image/webp" srcset="./img/clients-img10.webp" />
+                  <source type="image/jpeg" srcset="./img/clients-img10.png" />
+                  <img src="./img/clients-img10.png" alt="logo" />
+                </picture>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="form">
-            <div class="form__container _container">
-                <form class="form__left-box">
-                    <h2 class="form__header">GIVE US A GOOD NEWS</h2>
-                    <input placeholder="Name" type="text">
-                    <input placeholder="Email" type="text">
-                    <input placeholder="Subject" type="text">
-                    <textarea placeholder="Your massage"></textarea>
-                    <button class="form__btn btn-main">submit</button>
-                </form>
-                <div class="form__right-box">
-                    <h2 class="form__clients-title">OUR HAPPY CLIENT</h2>
-                    <div class="form__clints-wrapper">
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img1.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img1.png">
-                                <img src="./img/clients-img1.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img2.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img2.png">
-                                <img src="./img/clients-img2.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img3.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img3.png">
-                                <img src="./img/clients-img3.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img4.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img4.png">
-                                <img src="./img/clients-img4.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img5.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img5.png">
-                                <img src="./img/clients-img5.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img1.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img6.png">
-                                <img src="./img/clients-img6.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img7.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img7.png">
-                                <img src="./img/clients-img7.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img8.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img8.png">
-                                <img src="./img/clients-img8.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img9.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img9.png">
-                                <img src="./img/clients-img9.png" alt="logo">
-                            </picture>
-                        </div>
-                        <div class="form__clients-image">
-                            <picture>
-                                <source type="image/webp" srcset="./img/clients-img10.webp">
-                                <source type="image/jpeg" srcset="./img/clients-img10.png">
-                                <img src="./img/clients-img10.png" alt="logo">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
+      <footer id="contactsid" class="footer">
+        <div class="footer__container _container">
+          <div class="footer__first-col">
+            <div class="footer__logo">
+              <a href="/" class="footer__logo-link">
+                <picture>
+                  <source type="image/webp" srcset="./img/logo.webp" />
+                  <source type="image/jpeg" srcset="./img/logo.png" />
+                  <img src="./img/logo.png" alt="logo" />
+                </picture>
+              </a>
             </div>
-        </section>
-
-        <footer id="contactsid" class="footer">
-            <div class="footer__container _container">
-                <div class="footer__first-col">
-                    <div class="footer__logo">
-                        <a href="/" class="footer__logo-link">
-                            <picture>
-                                <source type="image/webp" srcset="./img/logo.webp">
-                                <source type="image/jpeg" srcset="./img/logo.png">
-                                <img src="./img/logo.png" alt="logo">
-                            </picture>
-                        </a>
-                    </div>
-                    <p class="footer__text">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
-                        elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
-                    <ul class="footer__client-links">
-                        <li><a href="#!">help</a></li>
-                        <li><a href="#!">terms &amp; condition</a></li>
-                        <li><a href="#!">privacy</a></li>
-                    </ul>
-                </div>
-                <div class="footer__second-col">
-                    <h3>our studio</h3>
-                    <div class="footer__adress">
-                        <a href="#!">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta
-                            Barat
-                            11480 - Indonesia</a>
-                    </div>
-                    <div class="footer__phone">
-                        <a href="tel:+622122243333">(+62) 21-2224 3333</a>
-                    </div>
-                </div>
-                <div class="footer__third-col">
-                    <h3>stay in touch</h3>
-                    <div class="footer__subscription-wrapper">
-                        <a href="" class="footer__subscription-btn">Subscribe our newsletter</a>
-                        <p><span class="icon-paper-plane-o"></span></p>
-                    </div>
-                    <ul class="footer__social">
-                        <li><a href="" target="_blank"><span class="icon-facebook"></span></a></li>
-                        <li><a href="" target="_blank"><span class="icon-twitter"></span></a></li>
-                        <li><a href="" target="_blank"><span class="icon-dribbble"></span></a></li>
-                        <li><a href="" target="_blank"><span class="icon-instagram"></span></a></li>
-                        <li><a href="" target="_blank"><span class="icon-google"></span></a></li>
-                        <li><a href="" target="_blank"><span class="icon-youtube-play"></span></a></li>
-                    </ul>
-                    <p class="footer__copy">Copyright &copy; 2015 - Tajem Creative</p>
-                </div>
+            <p class="footer__text">
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare
+              odio non mauris vitae erat in elit
+            </p>
+            <ul class="footer__client-links">
+              <li><a href="#!">help</a></li>
+              <li><a href="#!">terms &amp; condition</a></li>
+              <li><a href="#!">privacy</a></li>
+            </ul>
+          </div>
+          <div class="footer__second-col">
+            <h3>our studio</h3>
+            <div class="footer__adress">
+              <a href="#!"
+                >Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
+                Jakarta Barat 11480 - Indonesia</a
+              >
             </div>
-        </footer>
-
+            <div class="footer__phone">
+              <a href="tel:+622122243333">(+62) 21-2224 3333</a>
+            </div>
+          </div>
+          <div class="footer__third-col">
+            <h3>stay in touch</h3>
+            <div class="footer__subscription-wrapper">
+              <a href="" class="footer__subscription-btn"
+                >Subscribe our newsletter</a
+              >
+              <p><span class="icon-paper-plane-o"></span></p>
+            </div>
+            <ul class="footer__social">
+              <li>
+                <a href="" target="_blank"
+                  ><span class="icon-facebook"></span
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><span class="icon-twitter"></span
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><span class="icon-dribbble"></span
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><span class="icon-instagram"></span
+                ></a>
+              </li>
+              <li>
+                <a href="" target="_blank"><span class="icon-google"></span></a>
+              </li>
+              <li>
+                <a href="" target="_blank"
+                  ><span class="icon-youtube-play"></span
+                ></a>
+              </li>
+            </ul>
+            <p class="footer__copy">Copyright &copy; 2015 - Tajem Creative</p>
+          </div>
+        </div>
+      </footer>
     </main>
 
     <div id="popup" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <div class="video__wrapper">
-                    <a href="#!" class="popup__close close-popup">&times;</a>
-                    <iframe id="youtube-iframe" src="https://www.youtube.com/embed/l316DHLXV4Q?enablejsapi=1"
-                        title="YouTube video player" loading="lazy"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="video__wrapper">
+            <a href="#!" class="popup__close close-popup">&times;</a>
+            <iframe
+              id="youtube-iframe"
+              src="https://www.youtube.com/embed/l316DHLXV4Q?enablejsapi=1"
+              title="YouTube video player"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
-</body>
-
+  </body>
 </html>
