@@ -338,89 +338,102 @@ template {
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Hammersmith One';
-  src: url("../fonts/HammersmithOne-Regular.woff2") format("woff2"), url("../fonts/HammersmithOne-Regular.woff") format("woff");
+  font-family: "Hammersmith One";
+  src: url("../fonts/HammersmithOne-Regular.woff2") format("woff2"),
+    url("../fonts/HammersmithOne-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Thin.woff2") format("woff2"),
+    url("../fonts/Roboto-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("../fonts/icomoon.eot?lpybuo");
-  src: url("../fonts/icomoon.eot?lpybuo#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?lpybuo") format("truetype"), url("../fonts/icomoon.woff?lpybuo") format("woff"), url("../fonts/icomoon.svg?lpybuo#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?lpybuo#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?lpybuo") format("truetype"),
+    url("../fonts/icomoon.woff?lpybuo") format("woff"),
+    url("../fonts/icomoon.svg?lpybuo#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -487,14 +500,16 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #fff;
@@ -574,10 +589,10 @@ body._lock {
 }
 
 .header__item {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 13px;
-  letter-spacing: .25px;
+  letter-spacing: 0.25px;
   text-decoration: none;
   list-style-type: none;
   margin-left: 25px;
@@ -601,8 +616,13 @@ body._lock {
 }
 
 .intro {
-  background-image: url("../img/baground/header-bg-min.jpg"), linear-gradient(0deg, #09052f 0%, #311d5e 100%);
-  background-image: image-set(url("../img/baground/header-bg-min.webp") type("image/webp"), url("../img/baground/header-bg-min.jpg") type("image/jpeg")), linear-gradient(0deg, #09052f 0%, #311d5e 100%);
+  background-image: url("../img/baground/header-bg-min.jpg"),
+    linear-gradient(0deg, #09052f 0%, #311d5e 100%);
+  background-image: image-set(
+      url("../img/baground/header-bg-min.webp") type("image/webp"),
+      url("../img/baground/header-bg-min.jpg") type("image/jpeg")
+    ),
+    linear-gradient(0deg, #09052f 0%, #311d5e 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -622,7 +642,7 @@ body._lock {
 }
 
 .intro__header {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 32px;
   letter-spacing: 0.1px;
@@ -633,7 +653,7 @@ body._lock {
 
 .intro__header::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 50px;
   height: 1px;
   background-color: #00e0d0;
@@ -695,7 +715,7 @@ body._lock {
 }
 
 .about__header {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.5px;
@@ -706,12 +726,12 @@ body._lock {
 
 .about__text {
   color: #413d4b;
-  opacity: .75;
+  opacity: 0.75;
   line-height: 22px;
   letter-spacing: 0.3px;
   margin-bottom: 28px;
   opacity: 0;
-  transition: all .8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 .about__text._active {
@@ -719,7 +739,8 @@ body._lock {
 }
 
 .video {
-  background: url(../img/video-bg.jpg) no-repeat, linear-gradient(0deg, #09052f 0%, #311d5e 100%);
+  background: url(../img/video-bg.jpg) no-repeat,
+    linear-gradient(0deg, #09052f 0%, #311d5e 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -818,7 +839,7 @@ body._lock {
 
 .expertise__top {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .expertise__header {
@@ -840,7 +861,7 @@ body._lock {
 
 .expertise__text::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -18px;
   left: 50%;
   transform: translateX(-50%);
@@ -864,11 +885,14 @@ body._lock {
   border-bottom: 1px solid #ebebeb;
 }
 
-.expertise__item:nth-child(3), .expertise__item:nth-child(6) {
+.expertise__item:nth-child(3),
+.expertise__item:nth-child(6) {
   border-right: none;
 }
 
-.expertise__item:nth-child(4), .expertise__item:nth-child(5), .expertise__item:nth-child(6) {
+.expertise__item:nth-child(4),
+.expertise__item:nth-child(5),
+.expertise__item:nth-child(6) {
   border-bottom: none;
 }
 
@@ -895,7 +919,8 @@ body._lock {
 }
 
 .our-team {
-  background: url(../img/our-team-bg.jpg) no-repeat, linear-gradient(0deg, #09052f 0%, #311d5e 100%);
+  background: url(../img/our-team-bg.jpg) no-repeat,
+    linear-gradient(0deg, #09052f 0%, #311d5e 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -908,7 +933,7 @@ body._lock {
 }
 
 .our-team__top {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin: 0 auto;
 }
@@ -929,7 +954,7 @@ body._lock {
 
 .our-team__text::after {
   position: absolute;
-  content: '';
+  content: "";
   bottom: -18px;
   left: 50%;
   transform: translateX(-50%);
@@ -1000,7 +1025,7 @@ body._lock {
 }
 
 .our-works__header {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 22px;
   text-transform: uppercase;
@@ -1046,7 +1071,8 @@ body._lock {
 }
 
 .comments {
-  background: url(../img/comments-bg.jpg), linear-gradient(0deg, #09052f 0%, #311d5e 100%);
+  background: url(../img/comments-bg.jpg),
+    linear-gradient(0deg, #09052f 0%, #311d5e 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1069,7 +1095,7 @@ body._lock {
 }
 
 .comments__header {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 100px;
   line-height: 22px;
@@ -1080,7 +1106,7 @@ body._lock {
 }
 
 .comments__text {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   max-width: 780px;
   margin: 0 auto;
@@ -1131,17 +1157,24 @@ body._lock {
   object-fit: cover;
 }
 
-.comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next,
-.comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev,
-.comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next,
-.comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+.comments__container
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-next,
+.comments__container
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-prev,
+.comments__container
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-next-next,
+.comments__container
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-prev-prev {
   transform: scale(0.8);
   opacity: 0.8;
 }
 
 .comments__container .comments__button-next.swiper-button-next,
 .comments__container .comments__button-prev.swiper-button-prev {
-  top: 89%;
   scale: 0.8;
   color: #9f9f9f;
 }
@@ -1152,18 +1185,33 @@ body._lock {
 }
 
 .comments__container .comments__button-next.swiper-button-next,
-.comments__container .swiper-container-rtl .comments__button-prev.swiper-button-prev {
+.comments__container
+  .swiper-container-rtl
+  .comments__button-prev.swiper-button-prev {
   right: 200px;
 }
 
 .comments__container .comments__button-prev.swiper-button-prev,
-.comments__container .swiper-container-rtl .comments__button-next.swiper-button-next {
+.comments__container
+  .swiper-container-rtl
+  .comments__button-next.swiper-button-next {
   left: 200px;
 }
 
 .comments__container .comments__button-next.swiper-button-next:after,
 .comments__container .comments__button-prev.swiper-button-prev:after {
   font-size: 32px;
+}
+
+.comments__bullets {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.comments__bullets .comments__pagination {
+  top: auto;
+  bottom: auto;
 }
 
 .form__container {
@@ -1186,7 +1234,7 @@ body._lock {
   width: 100%;
   margin-bottom: 24px;
   outline: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #413d4b;
@@ -1203,7 +1251,7 @@ body._lock {
 }
 
 .form__header {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.5px;
@@ -1224,7 +1272,7 @@ body._lock {
 }
 
 .form__clients-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.5px;
@@ -1256,7 +1304,8 @@ body._lock {
 }
 
 .footer {
-  background: url(../img/footer-bg.jpg) no-repeat, linear-gradient(0deg, #09052f 0%, #311d5e 100%);
+  background: url(../img/footer-bg.jpg) no-repeat,
+    linear-gradient(0deg, #09052f 0%, #311d5e 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1330,21 +1379,21 @@ body._lock {
 .footer__adress::before,
 .footer__phone::before {
   position: absolute;
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   left: 0px;
   top: -4px;
   font-size: 19px;
 }
 
 .footer__adress::before {
-  content: '\e901';
+  content: "\e901";
   width: 14px;
   height: 19px;
   font-size: 19px;
 }
 
 .footer__phone::before {
-  content: '\e902';
+  content: "\e902";
   width: 17px;
   height: 17px;
   font-size: 19px;
@@ -1517,7 +1566,7 @@ body._lock {
   }
   .menu__burger::before,
   .menu__burger::after {
-    content: '';
+    content: "";
   }
   .menu__burger::before {
     top: 0;
@@ -1721,10 +1770,18 @@ body._lock {
     top: -75px;
     right: -30px;
   }
-  .comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next,
-  .comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev,
-  .comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next,
-  .comments__container .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  .comments__container
+    .swiper-pagination-bullets-dynamic
+    .swiper-pagination-bullet-active-next,
+  .comments__container
+    .swiper-pagination-bullets-dynamic
+    .swiper-pagination-bullet-active-prev,
+  .comments__container
+    .swiper-pagination-bullets-dynamic
+    .swiper-pagination-bullet-active-next-next,
+  .comments__container
+    .swiper-pagination-bullets-dynamic
+    .swiper-pagination-bullet-active-prev-prev {
     transform: scale(0.5);
     opacity: 0.8;
   }
